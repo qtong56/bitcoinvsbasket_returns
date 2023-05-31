@@ -1,11 +1,11 @@
-## Crypto Returns Modelling
+# Crypto Returns Modelling
 This repository contains Python code for analysing and modelling crypto returns data. The code reads in data from a downloaded CSV file, processes and cleans the data, and performs various calculations and analyses.
 
-#### Prerequisites
+## Prerequisites
 - Python 3.x
 - Libraries: requests, numpy, pandas, matplotlib, dateutil
 
-#### Usage
+## Usage
 1. Import the required libraries.
 2. Read in the bitcoin data from a downloaded CSV file.
 3. Modify the indexes to remove the timezone format and reindex to the given values in the CSV.
@@ -25,8 +25,8 @@ This repository contains Python code for analysing and modelling crypto returns 
 16. Perform the required calculations and create the necessary dataframes.
 17. Write the results to a CSV file.
 
-#### Examples
+## Examples
 Examples of how to use the code can be found in the code comments and the output displayed in the console.
 
-#### License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
